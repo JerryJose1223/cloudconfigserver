@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
-# the key we are passing to the microservice instead of direct url is from microservice till uri below, so we get value using value annotation.
+
 
 microservice:
   paymentservice:
@@ -16,3 +16,5 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
+        
+# the key we are passing to the microservice instead of direct url is from microservice till uri below, so we get value using value annotation.
