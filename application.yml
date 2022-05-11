@@ -5,11 +5,11 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 microservice:
-  payment-service:
+  paymentservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/doPayment
-  order-service:
+  orderservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
